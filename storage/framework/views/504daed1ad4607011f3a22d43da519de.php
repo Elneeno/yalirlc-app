@@ -1,72 +1,24 @@
-@extends('layouts.app')
 
-@section('content')
 
-<!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center">
-    <div class="container">
-      <h1>YALI RLC</h1>
-      <h2>Alumni Association of Nigeria</h2>
-      <a href="#about" class="btn-get-started scrollto">About</a>
-    </div>
-  </section><!-- End Hero -->
-
-  <main id="main">
-
-    <!-- ======= Why Us Section ======= -->
-    <section id="why-us" class="why-us">
-      <div class="container">
-
-        <div class="row">
-          <div class="col-lg-4 d-flex align-items-stretch">
-            <div class="content">
-              <h3>About YALI RLC</h3>
-              <p>
-                The Young African Leaders Initiative (YALI) RLC Alumni Association Nigeria is a fellowship program under the YALI Network Project of the US Government. YALI was launched by the United States Government as a signature effort to invest in the next generation of African Leaders. 
-              </p>
-              <div class="text-center">
-                <a href="#" class="more-btn">More</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-8 d-flex align-items-stretch">
-            <div class="icon-boxes d-flex flex-column justify-content-center">
-              <div class="row">
-                <div class="col-xl-4 d-flex align-items-stretch">
-                  <div class="icon-box mt-4 mt-xl-0">
-                    <i class="bx bx-receipt"></i>
-                    <h4>VISION</h4>
-                    <p>Build the largest and most impactful U.S Government exchange alumni association in Africa by promoting exchange of cultural values and sustainable human and institutional development </p>
-                  </div>
-                </div>
-                <div class="col-xl-8 d-flex align-items-stretch">
-                  <div class="icon-box mt-4 mt-xl-0">
-                    <i class="bx bx-receipt"></i>
-                    <h4>MISSION</h4>
-                    <p>Build the largest and most impactful U.S Government exchange alumni association in Africa by promoting exchange of cultural values and sustainable human and institutional development</p>
-                  </div>
-                </div>
-              </div>
-            </div><!-- End .content-->
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End Why Us Section -->
-
-    <!-- ======= About Section ======= -->
+<?php $__env->startSection('content'); ?>
+<main id="main">
+	
+<!-- ======= About Section ======= -->
     <section id="about" class="about">
       <div class="container">
+        <br><br>
 <div class="section-title">
           <h2>About</h2>
         </div>
         <div class="row">
-          <div class="col-xl-8 col-lg-6 video-box d-flex justify-content-center align-items-stretch position-relative">
+          <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch position-relative">
           </div>
 
-          <div class="col-xl-4 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
+          <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
             <h2> <strong>Who We Are </strong></h2>
             <p>The Young African Leaders Initiative (YALI) RLC Alumni Association Nigeria is a fellowship program under the YALI Network Project of the US Government. YALI was launched by the United States Government as a signature effort to invest in the next generation of African Leaders. </p>
+
+            <p>The need to invest in grooming strong, result oriented leaders comes out of the statistics that approximately 60% of Africa’s population is below the age of 35. The question then is. Who will empower these young Africans, who will embrace the responsibility of shaping the future</p>
 
             <h3>Tracks</h3>
             <div class="icon-box">
@@ -92,8 +44,28 @@
 
       </div>
     </section><!-- End About Section -->
+    
+    <section id="about" class="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 order-1 order-lg-2"><br>
+        <br>
+        <p>The YALI RLC Accra Center has Nine (9) Chapters in all currently consisting of Nigeria, Togo, Sierra-Leone, Ghana, Ivory Coast, Burkina Faso, Liberia, The Gambia and Cameroon.</p>
 
-    <!-- ======= Services Section ======= -->
+        <p>The Nigerian Chapter being the largest and most populated Alumni Chapter of YALI RLC Accra Center has approximately 4000 Alumni members who have passed successfully through the Emerging Leaders Training of YALI RLC Accra Center since commencement in 2014.</p>
+
+      </div>
+      <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+        <h4><strong></strong></h4>
+        <p>YALI was designed to promotes three specific models identified to be the bedrock of every developing society such as Africa. These models were designed to empower young Africans. The YALI Network, YALI Mandela Washington Fellowship and YALI Regional Leadership Centers. </p>
+
+        <p>Supporting this established progress, the YALI Accra Regional Leadership Center (YALI RLC) has offered innovative and game changing leadership training programs called “Emerging Leaders Training Program” for young Africans in the three thematic areas of Business and Entrepreneurship, Civic Leadership and Public Policy Management tracks, to be hosted by Ghana Institute of Management and Public Administration (GIMPA) which started in 2014.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+ <!-- ======= Services Section ======= -->
     <section id="services" class="services">
       <div class="container">
 
@@ -150,71 +122,42 @@
       </div>
     </section><!-- End Services Section -->
 
-    <!-- ======= Doctors Section ======= -->
-    <section id="doctors" class="doctors">
-      <div class="container">
+ <section id="about" class="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 order-1 order-lg-2"><br>
+        <h3><strong>Membership</strong></h3>
+        <br>
+        <p>Membership of the Alumni Chapter in Nigeria is categorized into two types, An Ordinary Member and a Financial Member</p>
 
-        <div class="section-title">
-          <h2>National Executive Council</h2>
-          <p>Meet our National Executive Members</p>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-4">
-            <div class="member d-flex align-items-start">
-              <div class="pic"><img src="assets/img/doctors/exco.png" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>Iweobi Prisca Ogbonna</h4>
-                <span>National Secretary</span>
-                <p></p>
-                <div class="social">
-                  <a href=""><i class="ri-twitter-fill"></i></a>
-                  <a href=""><i class="ri-facebook-fill"></i></a>
-                  <a href=""><i class="ri-instagram-fill"></i></a>
-                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
-                </div>
-              </div>
-            </div>
-          </div>
-            <div class="col-lg-4">
-            <div class="member d-flex align-items-start">
-              <div class="pic"><img src="assets/img/doctors/exco.png" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>Benjamin Aren</h4>
-                <span>National President</span>
-                <p></p>
-                <div class="social">
-                  <a href=""><i class="ri-twitter-fill"></i></a>
-                  <a href=""><i class="ri-facebook-fill"></i></a>
-                  <a href=""><i class="ri-instagram-fill"></i></a>
-                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 mt-4 mt-lg-0">
-            <div class="member d-flex align-items-start">
-              <div class="pic"><img src="assets/img/doctors/exco.png" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>Abdulkareem Musa Olayinka</h4>
-                <span>Vice President</span>
-                <p></p>
-                <div class="social">
-                  <a href=""><i class="ri-twitter-fill"></i></a>
-                  <a href=""><i class="ri-facebook-fill"></i></a>
-                  <a href=""><i class="ri-instagram-fill"></i></a>
-                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
-                </div>
-              </div>
-            </div>
-          </div>
+        <p><strong>Ordinary Member:</strong> All fellows who successfully accomplished the Emerging Leaders Training whether Online of Onsite becomes automatic ordinary members of YALI RLC Alumni Association Nigeria Chapter</p>
+<br>
+        <p><strong>Financial Member:</strong> fellows who presents themselves to volunteer their resources, time, knowledge and expertise for the Alumni Chapter be it at National or Regional level with up to date records on Annual Dues payment are categorized as</p>
 
       </div>
-    </section><!-- End Doctors Section -->
+      <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+        <h4><strong></strong></h4>
+        <h3><strong>Our Initiatives</strong></h3>
+        <br>
+        <p>YALI RLC Alumni Association Nigeria has since 2018, initiative several project across the Country such as </p>
+        <ul><strong>
+          <li>Women and Child Empowerment Programs</li>
+          <li>Youth Advocacy Programs</li>
+          <li>Health</li>
+          <li>Governance</li>
+          <li>Climate Action Projects</li>
+          <li>Environmental Sanitation</li>
+          <li>Agripreneurship Programs</li>
+          <li>Business Trainings and Workshops</li>
+          <li>SDGs Symposia and Educational Programs Centered Around Out of School Children</li>
+        </ul></strong>
+        </div>
+    </div>
 
-<!-- ======= Departments Section ======= -->
+  </div>
+</section>
+
+    <!-- ======= Departments Section ======= -->
     <section id="departments" class="departments">
       <div class="container">
 
@@ -240,6 +183,9 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" data-bs-toggle="tab" href="#tab-5">South East</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-6">South South</a>
               </li>
             </ul>
           </div>
@@ -300,6 +246,17 @@
                   </div>
                 </div>
               </div>
+              <div class="tab-pane" id="tab-6">
+                <div class="row gy-4">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>South South</h3>
+                    <p class="fst-italic">Consisting of Edo, Delta, Cross River, Bayelsa, Rivers, and Akwa Ibom states respectively</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/ne.jpg" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -307,58 +264,6 @@
       </div>
     </section><!-- End Departments Section -->
 
-
-    <!-- ======= Frequently Asked Questions Section ======= -->
-    <section id="faq" class="faq section-bg">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>FAQs</h2>
-          <p>Frequently Asked Questions</p>
-        </div>
-
-        <div class="faq-list">
-          <ul>
-            <li data-aos="fade-up">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">How can I Become a Member of YALI RLC? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
-                <p>
-                  You can become a member of YALI RLC Associtation of Nigeria by being a Nigerian who has passed through the YALI RLC program
-                </p>
-              </div>
-            </li>
-
-            <li data-aos="fade-up" data-aos-delay="100">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">How can I apply to YALI RLC program? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                 You can apply through the website of YALI when the application starts
-                </p>
-              </div>
-            </li>
-
-            <li data-aos="fade-up" data-aos-delay="200">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">Do you need any educational qualification? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  While educational achievement can be additional advantage, there is no voluntary educational certification to apply to the YALI RLC
-                </p>
-              </div>
-            </li>
-
-            <li data-aos="fade-up" data-aos-delay="300">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">Is YALI RLC registered in Nigeria? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  YALI RLC is registered with Corporate Affairs Commision as an association.
-                </p>
-              </div>
-            </li>
-          </ul>
-        </div>
-
-      </div>
-    </section><!-- End Frequently Asked Questions Section -->
 </main><!-- End #main -->
-
-@endsection
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('layouts.app', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\xampp\htdocs\yalirlc-app\resources\views/about.blade.php ENDPATH**/ ?>

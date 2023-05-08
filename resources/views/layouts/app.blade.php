@@ -48,14 +48,14 @@
 
      <!-- <h1 class="logo me-auto"><a href="index.html">YALI RLC Alumni Association</a></h1>-->
       <!-- Uncomment below if you prefer to use an image logo -->
-       <a href="index.html" class="logo me-auto"><img src="assets/img/rlc.jpg" alt="" class="img-fluid"></a>
+       <a href="{{ route('home') }}" class=""><img src="assets/img/logo.jpg" alt="" class="img-fluid" height="150" width="200"></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
        @include('layouts.navigation')
   </header><!-- End Header -->-
 
 
 
  <main id="main">
-
+<br> 
     @yield('content')
 
   </main>

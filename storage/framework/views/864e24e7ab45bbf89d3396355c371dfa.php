@@ -1,6 +1,6 @@
-@extends('layouts.app')
 
-@section('content')
+
+<?php $__env->startSection('content'); ?>
 <main id="main">
 	
 <!-- ======= Contact Section ======= -->
@@ -77,4 +77,5 @@
     </section><!-- End Contact Section -->
 
 </main><!-- End #main -->
-@endsection
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('layouts.app', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\xampp\htdocs\yalirlc-app\resources\views/contact.blade.php ENDPATH**/ ?>

@@ -1,10 +1,12 @@
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#services">Leadership</a></li>
-          <li><a class="nav-link scrollto" href="#departments">Programs and Events</a></li>
-          <li><a class="nav-link scrollto" href="#doctors">Hall of Fame</a></li>
+          <li><a class="nav-link scrollto" href="{{ route('home') }}">Home</a></li>
+          <li><a class="nav-link scrollto" href="{{ route('about') }}">About</a></li>
+          <li><a class="nav-link scrollto" href="{{ route('leadership') }}">Leadership</a></li>
+          <li><a class="nav-link scrollto" href="{{ route('program_events') }}">Programs and Events</a></li>
           <!--<li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
@@ -22,8 +24,7 @@
               <li><a href="#">Drop Down 4</a></li>
             </ul>
           </li>-->
-          <li><a class="nav-link scrollto" href="#contact">Opportunities</a>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a class="nav-link scrollto" href="{{ route('contact') }}">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->

@@ -19,17 +19,17 @@
           <div class="col-lg-2 col-md-6 footer-links">
             <h4>Links</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Leadership</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="{{ route('home') }}">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="{{ route('about') }}">About</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="{{ route('leadership') }}">Leadership</a></li>
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Program And Events</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Hall of Fame</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Opportunities</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="{{ route('program_events') }}">Program And Events</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="">Hall of Fame</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="">Opportunities</a></li>
             </ul>
           </div>
 
